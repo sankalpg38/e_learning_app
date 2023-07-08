@@ -1,0 +1,89 @@
+.nav {
+    display:block;
+    /* justify-content: space-around; */
+    /* text-align: right; */
+    float: left;
+    position: fixed;
+    
+    width: 100vw;
+    
+    background-color: rgb(21, 21, 21);
+    padding: 13px;
+  }
+
+  .nav  :last-child{
+float: right;
+padding: 0 2vw;
+  }
+  .nav a {
+    color: rgb(192, 189, 189);
+    text-decoration: none;
+    padding: 0vw 2vw;
+    background-color: transparent;
+  }
+  
+  .nav .active {
+    font-weight: 500;
+    color: white;
+    padding: 0vw 2vw;
+  }
+ #log{
+    color: rgb(192, 189, 189);
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0vw 2vw;
+  }
+  #log:hover{
+    font-weight: 500;
+    color: white;
+  }
+
+  @media (max-width: 600px){
+    .nav {
+      display:block;
+      /* justify-content: space-around; */
+      /* text-align: right; */
+      float: left;
+      position: fixed;
+      
+      width: 100vw;
+      
+      background-color: rgb(21, 21, 21);
+      padding: 13px;
+    }
+  
+    .nav  :last-child{
+  float: right;
+  padding: 0 5vw;
+    }
+   
+    .nav a {
+      color: rgb(192, 189, 189);
+      text-decoration: none;
+      padding: 0vw 2vw;
+      background-color: transparent;
+    }
+    
+    .nav .active {
+      font-weight: 500;
+      color: white;
+      padding: 0vw 2vw;
+    }
+    .nav :last-child .active{
+      padding: 0vw 5vw;
+    }
+   #log{
+      color: rgb(192, 189, 189);
+      text-decoration: none;
+      font-weight: 400;
+      padding: 0vw 5vw;
+    }
+    #log:hover{
+      font-weight: 500;
+      color: white;
+    }
+  }
+    
+  
+  
+  
